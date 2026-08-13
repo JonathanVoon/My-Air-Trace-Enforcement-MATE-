@@ -1,0 +1,19 @@
+# Arduino & ESP32 Temporary Build Directories
+build/
+bin/
+*.hex
+*.elf
+*.bin
+
+# Local IDE Configurations
+.vscode/
+.idea/
+*.user
+
+# Security & Private Credentials
+secrets.h
+config.h
+
+# Operating System Files
+.DS_Store
+Thumbs.db
